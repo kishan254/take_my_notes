@@ -1,0 +1,17 @@
+[
+    {
+        "title":"Buy groceries",
+        "text":"When buying my groceries do not forget to buy some toothpaste",
+        "id": 1
+    },
+    {
+        "title":"Assignment due",
+        "text":"After meeting with retailers resume working on the bootcamp assignment",
+        "id": 2
+    },
+    {
+        "title":"Cash collection",
+        "text":"Do not forget to invoice Ben for the jobs done last week",
+        "id": 3
+    }
+]
