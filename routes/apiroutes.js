@@ -1,12 +1,15 @@
 const router = require("express").Router();
 const fs = require("fs");
 
+// take the data from the db.json object and parse it to give the data length
+
 const notesLength = () => {
   let data = fs.readFileSync("./db/db.json", "UTF8");
-  data - JSON.parse(data);
+  data = JSON.parse(data);
   return data.length;
 };
 
+// router to get the data from db.json and then parsing the data to allow user to add new data 
 router.get("/", (req, res) => {
   fs.readFile("./db/db.json", "UTF8", (err, data) => {
     if (err) throw err;
@@ -15,6 +18,7 @@ router.get("/", (req, res) => {
   });
 });
 
+//router post new data into the body and then using the JSON.stringify input this new data into an object to store in the db.json
 router.post("/", (req, res) => {
   if (!noteId) noteId = notesLength();
   var noteId = Number(noteId);
@@ -31,6 +35,8 @@ router.post("/", (req, res) => {
     });
   });
 });
+
+//router to delete any unwanted data from db.json 
 
 router.delete("/:id", (req, res) => {
   var deletion = req.params.id;
@@ -49,4 +55,6 @@ router.delete("/:id", (req, res) => {
     }
   });
 });
+
+// module to encapsulate related code into a single unit of code to be used by other programs in the app
 module.exports = router;
