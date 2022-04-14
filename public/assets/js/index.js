@@ -1,6 +1,3 @@
-const e = require("express");
-const { json } = require("express");
-
 let noteTitle;
 let noteText;
 let saveNoteBtn;
@@ -92,7 +89,7 @@ const handleNoteDelete = (e) => {
     const note = e.target;
     const noteId = JSON.parse(note.parentElement.getAttribute('data-note')).id;
 
-    if (acticeNote.id === noteId) {
+    if (activeNote.id === noteId) {
         activeNote = {};
     }
 
