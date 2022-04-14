@@ -3,7 +3,7 @@ const path = require('path');
 
 //router to get the notes and respond by sending the file to the path and joining it with notes.html
 
-router.get('./notes', (req, res) => {
+router.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'public', 'notes.html'))
 })
 
