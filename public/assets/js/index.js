@@ -14,14 +14,14 @@ if(window.location.pathname === '/notes') {
 
 // This shows an element
 
-const show = (elem) => {
-    elem.style.display = 'inline';
+const show = (element) => {
+    element.style.display = 'inline';
 };
 
 // This hides an element
 
 const hide = (elem) => {
-    elem.style.display = 'none';
+    element.style.display = 'none';
 };
 
 // activeNote is used to keep track of the note in the text area
@@ -99,6 +99,14 @@ const handleNoteDelete = (e) => {
     });
 };
 
+// Sets the activeNote and displays it
+
+const handleNoteView = (e) => {
+    e.preventDefault();
+    activeNote = JSON.parse(e.target.parentElement.getAttribute('data-note'));
+    renderActiveNote();
+}
+
 // sets the activeNote to an empty object and allows the user to enter a new note
 
 const handleNewNoteView = (e) => {
@@ -116,8 +124,8 @@ const handleRenderSaveBtn = () => {
 
 // Render the list of note titles
 
-const renderNoteList = async (note) => {
-    let jsonNotes = await noteList.json();
+const renderNoteList = async (notes) => {
+    let jsonNotes = await notes.json();
     if (window.location.pathname === '/notes') {
         noteList.forEach((el) => (el.innerHTML = ''));
     }
