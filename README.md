@@ -57,10 +57,21 @@ To run tests, please use the following command:
 
 ## Screenshots of deployed app
 
-![image_one]()
-![image_two]()
-![image_three]()
-![image_four]()
+Homepage
+
+![image_one](images/homepage.png)
+
+Default saved Notes
+
+![image_two](images/noteTaker.png)
+
+New note created
+
+![image_three](images/newNote.png)
+
+All notes deleted
+
+![image_four](images/deletedNotes.png)
 
 ## Technology
 
