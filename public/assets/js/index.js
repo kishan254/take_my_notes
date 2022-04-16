@@ -14,14 +14,14 @@ if(window.location.pathname === '/notes') {
 
 // This shows an element
 
-const show = (element) => {
-    element.style.display = 'inline';
+const show = (elem) => {
+    elem.style.display = 'inline';
 };
 
 // This hides an element
 
 const hide = (elem) => {
-    element.style.display = 'none';
+    elem.style.display = 'none';
 };
 
 // activeNote is used to keep track of the note in the text area
