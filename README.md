@@ -73,6 +73,10 @@ All notes deleted
 
 ![image_four](images/deletedNotes.png)
 
+Visuals for db.json:
+
+![Giphy](images/gif.gif)
+
 ## Technology
 
 - Github
