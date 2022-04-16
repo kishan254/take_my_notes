@@ -1,6 +1,6 @@
 # take_my_notes
 
-![Badge]()
+![Badge](https://img.shields.io/github/license/kishan254/take_my_notes)
 
 ## Description
 
@@ -53,10 +53,10 @@ To run tests, please use the following command:
 
 ## Screenshots of deployed app
 
-![image_one](images/api_routes.png)
-![image_two](images/api_js.png)
-![image_three](images/display_note.png)
-![image_four](images/save_notes.png)
+![image_one]()
+![image_two]()
+![image_three]()
+![image_four]()
 
 ## Technology
 
