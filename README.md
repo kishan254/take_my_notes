@@ -1,13 +1,12 @@
 # take_my_notes
 
-# my_team_profile
-
-
 ![Badge]()
 
 ## Description
 
+This is an app created using the Express.js backend and is deployed on the Heroku environment
 
+The main reason to create this app was to help a smll business owner create and manage small notes as task manager. This will allow the user to create, save and delete notes
 
 ## Tabel of Contents
 
@@ -24,8 +23,9 @@
 
 In order to run this application, you will need to install the following
 
-- npm install jest
-- npm instal inquirer
+- npm instal node.js
+- npm install express.js
+
 
 ## Usage
 
@@ -34,6 +34,7 @@ In order to use this app, you will need to understand the following;
 - HTML
 - Node
 - Javascript
+- Heroku
 
 ## Contribute
 
@@ -42,6 +43,7 @@ In order to contribute to this app, you will need to understand the following;
 - HTML
 - Node
 - Javascript
+- Heroku
 
 ## Tests
 
@@ -49,12 +51,12 @@ To run tests, please use the following command:
 
 - npm run test
 
-## Screenshots
+## Screenshots of deployed app
 
-![image_one]()
-![image_two]()
-![image_three]()
-![image_four]()
+![image_one](images/api_routes.png)
+![image_two](images/api_js.png)
+![image_three](images/display_note.png)
+![image_four](images/save_notes.png)
 
 ## Technology
 
@@ -63,26 +65,26 @@ To run tests, please use the following command:
 - CSS - Bootstrap
 - Javascript
 - Node.js
+- Express.js
+- Heroku
 
 ## Making
 
 These are the screenshots of the code 
 
-Get Employee Function
+API routes in public index.js
+![Code-Snippet](images/api_routes.png)
 
-![Code-Snippet] ()
+API routes in apiroutes.js
+![Code-Snippet](images/api_js.png)
 
-Generate the page function
+Displays the note from db.json
 
-![Code-Snippet]()
+![Code-Snippet](images/display_note.png)
 
-Card Selector function 
+Saves the note to the sidebar
 
-![Code-Snippet]()
-
-Card Generator 
-
-![Code-Snippet]()
+![Code-Snippet](images/save_notes.png)
 
 ## Questions
 
