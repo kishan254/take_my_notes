@@ -8,6 +8,10 @@ This is an app created using the Express.js backend and is deployed on the Herok
 
 The main reason to create this app was to help a smll business owner create and manage small notes as task manager. This will allow the user to create, save and delete notes
 
+# Heroku App
+
+[Heroku](https://take-notes-for-me.herokuapp.com/)
+
 ## Tabel of Contents
 
 * [Installation](#installation)
